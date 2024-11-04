@@ -1,3 +1,9 @@
+macro_teems_mute: macro_teems_mute{
+compatible = "zmk,behavior-macro";
+label = "macro_teems_mute";
+#binding-cells = <0>;
+bindings = <&kp LCTRL>, <&kp LSHIFT>, <&kp M>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
